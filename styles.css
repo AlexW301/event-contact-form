@@ -50,7 +50,7 @@ p {
 .form-box {
     padding: 10px;
     width: 80%;
-    margin: auto auto 64px auto;
+    margin: auto auto 32px auto;
     display: grid;
     column-width: 80%;
     row-gap: 30px;
@@ -101,7 +101,7 @@ input::placeholder {
     width: 78%;
     font-size: 160%;
     display: block;
-    margin: auto auto;
+    margin: auto auto 20px;
     background-color: #c92a2a;
     border-style: none;
     color: #fff5f5;
