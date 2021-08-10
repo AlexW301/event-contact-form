@@ -6,17 +6,21 @@
 
 html {
     font-family: sans-serif;
+    min-height: 100vh;
 }
 
 body {
     font-size: 14px;
     background: linear-gradient( rgba(233, 232, 232, 0.75), rgba(201, 201, 201, 0.5) );
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     width: 80%;
     margin: auto auto;
-    
 }
 
 /* HEADERS */
@@ -274,21 +278,21 @@ h3 {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    height: 900px;
+    /* height: 900px; */
 }
 
 .pre-approved {
     display: none;
     flex-direction: column;
     justify-content: center;
-    height: 900px;
+    /* height: 900px; */
 }
 
 .refi {
     display: none;
     flex-direction: column;
     justify-content: center;
-    height: 900px;
+    /* height: 900px; */
 }
 .final-form {
     display: none;

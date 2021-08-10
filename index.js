@@ -28,7 +28,7 @@ closeBtn.onclick = function() {
 //
 
 
-// Form Fields
+// SUBMIT Form Fields
 
 submitBtn.onclick = function() {
     //Get Values
